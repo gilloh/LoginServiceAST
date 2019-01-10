@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'login_page.dart';
-import 'home_page.dart';
+import 'package:login_service_ast/pages/login_page.dart';
+import 'package:login_service_ast/pages/home_page.dart';
+import 'package:login_service_ast/pages/splash_page.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Login Service',
       theme: ThemeData.light(),
-      home: LoginPage(),
+      home: SplashPage(),
       routes: routes,
     );
   }
